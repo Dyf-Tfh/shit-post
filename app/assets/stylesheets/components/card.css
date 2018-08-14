@@ -1,0 +1,26 @@
+.card {
+  display: block;
+  width: 250px;
+  height: 300px;
+  background-color: purple;
+  /* background-image: url('assets/images/main.jpg') */
+  margin: 20px;
+}
+.card-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 5px;
+  position: absolute
+}
+
+.card-txt {
+  position: relative;
+  top: 45%;
+  margin: 10px;
+}
+
+.card-category {
+  position: relative;
+  right: -80%;
+}

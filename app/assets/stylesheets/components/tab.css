@@ -1,0 +1,24 @@
+.tab-content {
+  display: none;
+}
+.tab-content:target {
+  display: block;
+}
+.tabs ul  {
+  display: flex;
+  border-radius: 12px;
+  background-color: crimson
+}
+.tabs li {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+.tabs li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+.tabs {
+  margin: 15px 10px;
+}
