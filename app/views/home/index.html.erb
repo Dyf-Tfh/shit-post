@@ -5,7 +5,14 @@
         <li> <a href="#">Shintel</a></li>
         <li> <a href="#">Novideo</a></li>
         <li> <a href="#">Ayymd</a></li>
-        <li><%= image_tag "dyf.png", class:"navbar-logo"%></li>
+        <li>
+          <div class="dropdown">
+            <%= image_tag "dyf.png", class:"navbar-logo"%>
+            <div class="dropdown-content">
+              <p>Hello World!</p>
+            </div>
+          </div>
+        </li> 
       </div>
   </ul>
 </nav>
@@ -22,7 +29,7 @@
 <div class="banner">
     <button id="owo" class="btn-blue">Plutia</button>
 </div>
-<div style="display:flex; margin: 0 auto; width: 70%">
+<div style="display:flex; margin: 0 auto; width: 70%; justify-content: space-between">
   <div class="card">
     <%= image_tag "dyf.png", class:"card-avatar" %>
     <p class="card-category">#OwO</p>
